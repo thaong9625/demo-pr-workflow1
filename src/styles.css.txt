@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; padding: 2rem; }
+#login { border: 1px solid #ddd; padding: 1rem; max-width: 320px; }
+#login label { display:block; margin-bottom: .4rem; }
+#login input { width:100%; padding:.4rem; margin-top:.2rem; }
+#login button { margin-top:.6rem; padding:.5rem 1rem; cursor:pointer; }

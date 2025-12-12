@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Demo PR Workflow</title>
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <h1>Welcome to Demo App</h1>
+  <!-- START: login form (feature) -->
+  <section id="login">
+    <h2>Login</h2>
+    <form id="login-form">
+      <label>
+        Email:
+        <input type="email" name="email" placeholder="you@example.com" required>
+      </label>
+      <label>
+        Password:
+        <input type="password" name="password" placeholder="••••••" required>
+      </label>
+      <button type="submit">Sign in</button>
+    </form>
+  </section>
+  <!-- END: login form (feature) -->
+</body>
+</html>
