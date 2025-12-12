@@ -7,21 +7,27 @@
 </head>
 <body>
   <h1>Welcome to Demo App</h1>
-  <!-- START: login form (feature) -->
-  <section id="login">
-    <h2>Login</h2>
+
+  <!-- UPDATED login UI -->
+  <section id="login" class="card">
+    <h2>Sign in to your account</h2>
+
     <form id="login-form">
-      <label>
-        Email:
+      <div class="field">
+        <label>Email</label>
         <input type="email" name="email" placeholder="you@example.com" required>
-      </label>
-      <label>
-        Password:
+      </div>
+
+      <div class="field">
+        <label>Password</label>
         <input type="password" name="password" placeholder="••••••" required>
-      </label>
-      <button type="submit">Sign in</button>
+      </div>
+
+      <button type="submit">Sign In</button>
+      <a href="#" class="forgot">Forgot your password?</a>
     </form>
   </section>
-  <!-- END: login form (feature) -->
+  <!-- END UPDATED login UI -->
+  
 </body>
 </html>
