@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Demo PR Workflow</title>
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <h1>Welcome to Demo App</h1>
+
+  <!-- UPDATED login UI -->
+  <section id="login" class="card">
+    <h2>Sign in to your account</h2>
+
+    <form id="login-form">
+      <div class="field">
+        <label>Email</label>
+        <input type="email" name="email" placeholder="you@example.com" required>
+      </div>
+
+      <div class="field">
+        <label>Password</label>
+        <input type="password" name="password" placeholder="••••••" required>
+      </div>
+
+      <button type="submit">Sign In</button>
+      <a href="#" class="forgot">Forgot your password?</a>
+    </form>
+  </section>
+  <!-- END UPDATED login UI -->
+  
+</body>
+</html>
